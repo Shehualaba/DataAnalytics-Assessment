@@ -52,3 +52,5 @@ Finally, the two tables that were generated were joined together to get Customer
 * I extracted customer_id, name, tenure, and total_transactions from the joined tables.
 * I calculated the estimated Customer Lifetime Value using the formula given in the assessment material.
 * Finally, I ordered the generated result in descending order using the estimated Customer Lifetime Value.
+## Challenges
+The major challenge I faced was understanding the data structure and tables in the database. I struggled initially to recognize the fields to use to get the results I need. The hint provided in the assessment document helped me solve this problem
