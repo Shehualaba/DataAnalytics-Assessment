@@ -1,7 +1,7 @@
 # DataAnalytics-Assessment
 ## High-Value Customers with Multiple Products
 To solve this problem, the first thing I did was to create a filter list containing user ID, first name, last name, savings count, investment count, and total inflow. I got the filter list by completing the following steps:  
-* I joined all three tables together using inner joins, First, I joined the user_customer and plans tables using an inner join, then I joined the savings table to them using an inner join
+* First, I joined the user_customer and plans tables using an inner join, then I joined the savings table to them using an inner join
 * After joining the tables, I extracted the user ID, first name, and last name.
 * Then I got the savings count and investment count by using a condition statement to only count distinct savings IDs for customers with savings and investment accounts, respectively.
 * I calculated the total inflow by finding the sum of the confirmed amount and dividing the result by 100 to convert it to naira
